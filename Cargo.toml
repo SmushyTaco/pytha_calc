@@ -1,0 +1,18 @@
+[package]
+name = "pytha_calc"
+version = "1.0.0"
+authors = ["SmushyRepo"]
+description = "A simple command-line Pythagorean Theorem calculator."
+edition = "2018"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SmushyRepo/pytha_calc/"
+homepage = "https://github.com/SmushyRepo/pytha_calc/"
+documentation = "https://github.com/SmushyRepo/pytha_calc/"
+
+[profile.dev]
+opt-level=3
+
+[profile.release]
+opt-level=3
+
+[dependencies]
